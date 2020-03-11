@@ -1,0 +1,46 @@
+.lincoln {
+  display: flex;
+}
+img {
+width: 250px;
+height: 250px;
+}
+.circle {
+height: 65px;
+width: 65px;
+background-color: #9733FF;
+border-radius: 100%;
+position: relative;
+bottom: 215px;
+left: 165px;
+}
+.percent {
+position: absolute;
+left: 11px;
+top: 6px;
+color: white;
+font-weight: bold;
+font-family: sans-serif;
+}
+h3 {
+color: #9733FF;
+font-family: sans-serif;
+}
+.text {
+padding-top: 20px;
+}
+.text p {
+font-family: sans-serif;
+}
+.cost {
+padding-top: 25px;
+margin-left: 5px;
+}
+.bold {
+font-weight: bold;
+}
+.grey {
+color: grey;
+font-size: 14px;
+margin-top: -15px ;
+}

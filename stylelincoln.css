@@ -1,0 +1,63 @@
+.main {
+    display: flex;
+    max-width: 920px;
+    min-width: 600px;
+    margin: 0 auto; 
+}
+* {
+    box-sizing: border-box;
+}
+.left {
+    /* display: flex; */
+    width: 50%;
+    /* margin-top: -70px; */
+    position: relative;
+}
+img {
+    width: 100%;
+    /* width: 463px;
+    height: 463px; */
+}
+.right {
+    font-family: Roboto ;
+    background-color: rgba(196, 196, 196, 0.5);;
+    padding: 12px 44px;
+    float: left;
+    width: 50%;
+    font-size: 14px;
+}
+.cost {
+    font-weight: bold;
+    font-size: 26px;
+}
+.articule {
+    font-size: 14px;
+    color: grey;
+}
+td {
+    font-size: 14px;
+    padding: 4px;
+}
+
+tr:nth-child(2n + 1) {
+    background-color: white;
+}
+a {
+    display: block;
+    margin-top: 90px;
+    color: #833AE0;
+
+}
+.reverse {
+    display: none;
+}
+
+.averse {
+    position: absolute;
+}
+.averse:hover + .reverse{
+    display: block ;
+}
+.reverse {
+    position: absolute;
+}

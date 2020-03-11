@@ -1,0 +1,118 @@
+.white{
+    background-color: white;
+}
+.purple{
+    background-color: #9733FF;
+    width:330px;
+    height: 200px;
+    border-radius: 15px;
+    position: relative;
+    top: 18px;
+}
+.chip{
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.code{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+    font-size: 23px;
+    color: white;
+    width: 250px;
+    font-family: monospace;
+}
+.name {
+    position: absolute;
+    top: 95px;
+    left: 30px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.valid{
+    position: absolute;
+    top: 135px;
+    left:30px;
+    font-size:14px;
+    color: white;
+    font-family: sans-serif;
+}
+.date{
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+.visa  {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    left: 270px;
+    top: 160px;
+}
+
+.black{
+    background-color: black;
+    width: 330px;
+    height: 200px;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 120px;
+    top: 27px;
+}
+.tinkoff {
+    color: white;
+    font-size: 25px;
+    padding-left: 220px;
+    margin-top: 10px;
+}
+.card-name{
+    padding-left: 210px;
+    margin: 10px;
+}
+
+.green {
+    background-color: #31AF0F;
+    width: 330px;
+    height: 200px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 30px;
+    top: 235px;
+}
+.master{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    left: 270px;
+    top: 150px;
+}
+.logo-sber {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 210px;
+    top: 10px;
+
+}
+.logo-vtb{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    left: 210px;
+    top: 10px;
+}
+.blue {
+background-color: blue;
+    width: 330px;
+    height: 200px;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 340px ;
+    top: 235px;
+}
