@@ -30,7 +30,7 @@
     margin: 0 auto;
     /* border: 1px solid; */
 }
-img {
+.image {
     width:  200px;
     height: 200px;
 }
@@ -82,6 +82,6 @@ ul {
     /* margin-right: 96px; */
     /* border: 1px solid; */
 }
-a {
+.links {
     text-decoration: none;
 }
