@@ -30,10 +30,12 @@
     margin: 0 auto;
     /* border: 1px solid; */
 }
-.image {
-    width:  200px;
+.image 
+{
+    width: 200px;
     height: 200px;
 }
+
 .relative {
     position: relative;
     width: 200px;
@@ -84,4 +86,81 @@ ul {
 }
 .links {
     text-decoration: none;
+}
+
+/* Отдельная информация про монеты */
+.main {
+    display: flex;
+    max-width: 920px;
+    min-width: 600px;
+    margin: 0 auto; 
+}
+
+.left {
+    /* display: flex; */
+    width: 50%;
+    /* margin-top: -70px; */
+    position: relative;
+}
+img {
+    width: 100%;
+    /* width: 463px;
+    height: 463px; */
+}
+.right {
+    font-family: Roboto ;
+    background-color: rgba(196, 196, 196, 0.5);;
+    padding: 12px 44px;
+    float: left;
+    width: 50%;
+    font-size: 14px;
+}
+.cost {
+    font-weight: bold;
+    font-size: 26px;
+}
+.articule {
+    font-size: 14px;
+    color: grey;
+}
+table {
+    border-collapse: collapse;
+}
+tr{
+    border-top: 1px solid silver; 
+}
+td {
+    font-size: 14px;
+    padding: 4px;
+    border-collapse: collapse;
+}
+tr:first-child{
+    border-top: none;
+}
+td:nth-child(odd){
+    border-right: 1px solid silver;
+}
+tr:last-child {
+    border-bottom: none;
+}
+
+tr:nth-child(2n + 1) {
+    background-color: white;    
+}
+
+.link {
+    display: block;
+    margin-top: 90px;
+    color: #833AE0;
+}
+.reverse {
+    display: none;
+    position: absolute;
+}
+
+.averse {
+    position: absolute;
+}
+.averse:hover + .reverse{
+    display: block ;
 }
